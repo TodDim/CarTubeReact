@@ -1,0 +1,416 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+#listings {
+    width: 86%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.listing {
+    padding-top: 30px;
+    padding-left: 50px;
+    height: 440px;
+    width: 350px;
+    margin: auto;
+    margin: 15px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+.listing>img {
+    height: 200px;
+    width: 300px;
+}
+
+.listing>p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.no-cars {
+    margin: auto;
+    font-size: 70px;
+}
+
+#listings>div>div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#data-info {
+    margin-top: 25px;
+    width: 13em;
+    margin-left: -30px;
+}
+
+#data-buttons>ul>li {
+    text-transform: capitalize;
+    padding-top: 5px;
+}
+
+#data-buttons>ul {
+    list-style-type: none;
+}
+
+.button-carDetails {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    margin: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+#container>div.listing-details>div>img {
+    height: 455px;
+    width: 800px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.listings-buttons {
+    width: 31%;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.button-list {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin: 10px 8px;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#description-para {
+    width: 39.8em;
+}
+
+/* Add padding to containers */
+
+.container {
+    background-color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+/* Full-width input fields */
+
+input[type=text], input[type=number], input[type=password] {
+    width: 50%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=number]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Overwrite default styles of hr */
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+/* Add a blue text color to links */
+
+a {
+    color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.car-listings {
+    background-color: white;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    width: 94%;
+    margin: auto;
+}
+
+.my-listing {
+    height: 500px;
+    width: 400px;
+    padding: 20px 30px 0 30px;
+    margin: auto;
+    border: 2px solid black;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.my-listing img {
+    height: 269px;
+    width: 410px;
+}
+
+.listing-props {
+    display: flex;
+    height: 60px;
+}
+
+h3 {
+    padding: 0 10px 0 30px;
+}
+
+.my-listing-details>p#description-title {
+    font-size: 39px;
+    text-align: center;
+    padding: 30px 0 5px 0;
+    font-weight: bold;
+}
+
+#description-para {
+    font-size: 20px;
+    border: 2px solid black;
+    padding-bottom: 100px;
+    margin-bottom: 40px;
+}
+
+#auto-title {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+
+.my-listings-buttons {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.my-listing-details {
+
+    width: 50%;
+    margin: auto;
+}
+.my-listing-details>p {
+    
+    font-weight: bold;
+    font-size: 25px;
+    margin: auto;
+    padding: 5px;
+}
+#descriptionDetails {
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    padding: 5px;
+}
+
+.my-listing>img {
+    height: 300px;
+    width: 400px;
+}
+
+.no-cars {
+    margin: auto;
+    font-size: 70px;
+}
+
+.my-listing-buttons {
+    width: 90%;
+    margin: auto;
+    margin-top: 34px;
+}
+
+.my-button-list {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin: 10px 8px;
+    padding: 11px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#listing-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+#profile {
+    float: right;
+}
+
+/* Style the links inside the navigation bar */
+
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+
+nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+#notifications {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    margin: 1em;
+}
+
+.notification {
+    font-size: 1.5em;
+    color: #ffffff;
+    display: none;
+    text-align: right;
+}
+
+.notification>span {
+    display: inline-block;
+    padding:  0.5em 2em 0.5em 2em;
+    border-radius: 10px;
+}
+
+#loadingBox>span {
+    background: #7CB3E9;
+}
+#infoBox>span {
+    background: #393;
+}
+#errorBox>span {
+    background: #F50;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+#main {
+    background-color: white;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+#welcome-container {
+    width: 50%;
+    margin: auto;
+}
+
+#welcome-container>img {
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+#button-div {
+    padding-top: 10px;
+    width: 37%;
+    margin: auto;
+}
